@@ -99,17 +99,6 @@ var main = function() {
 
     $('#ImageDisplay').mouseleave(stopImageSound);
     $('#ImageDisplay').mouseup(stopImageSound);
-
-	var mc = new Hammer(document.getElementById('ImageDisplay'));
-	// listen to events...
-	mc.on("press", function(ev) {
-		document.getElementById('dbgText').textContent = ev.type +" gesture detected at";
-		playImageSound();
-	});
-	mc.on("pressup", function(ev) {
-		document.getElementById('dbgText').textContent = ev.type +" gesture detected at";
-		stopImageSound();
-	});
 };
 
 $(document).ready(main);
