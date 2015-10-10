@@ -10,6 +10,6 @@ http://changchen.github.io/L2TI/
 - Used as a musical instrument, player can define his own musical instrument by any image.
 
 ## To-do
-- Support touch opration of mobile device
-- Open the local image by user
+- Support touch operation on mobile device
+- Support open the local image by user
 - Add more tone options
